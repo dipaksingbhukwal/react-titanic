@@ -103,7 +103,7 @@ class Home extends Component {
               ) : null}
             </div>
             <div className="col md-4">
-              <Form onSubmit={() => this.onFormSubmit(passenger)} />
+              <Form onSubmit={() => this.onFormSubmit()} />
             </div>
           </div>
           {/* {this.state.addPassenger ? <Form /> : null} */}
